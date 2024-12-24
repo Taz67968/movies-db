@@ -11,7 +11,7 @@ document.querySelector('#app').innerHTML = `
       <div id = "n1">
         <nav>
          <a href="index.html"><p>Home</p></a>
-                  <a href="details.html"><p>Discover</p></a>
+          <a href="details.html"><p>Discover</p></a>
           <a href=""><p>Movie Release</p></a>
           <a href=""><p>Forum</p></a>
           <a href=""><p>About</p></a>
@@ -21,13 +21,10 @@ document.querySelector('#app').innerHTML = `
       <div id="n2">
         <div id="n3">
             <div id="n4">
-              <img src="src/images/download.png" alt="" style="width: 8%;">
-              <img src="src/images/n.png" alt="" style="width: 6.5%;">
+              <img src="src/images/download (1).png" alt="" style="width: 8%;">
+             <button class ="t4">Sign up</button>
+                <button class ="t5">Login</button>
             </div>
-        </div>
-
-        <div id="n6">
-          <a href=""><img src="src/images/profile.png" alt="" /></a>
         </div>
       </div>
 </div>
@@ -37,7 +34,7 @@ document.querySelector('#app').innerHTML = `
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
     <div class="numbertext"></div>
-    <img src="/src/images/w1.jpg" style="width:185%">
+    <img src="/src/images/w1.jpg" class = "f">
     <div class="text"></div>
      <div id= "main">
         <button>Season 3</button>
@@ -52,16 +49,15 @@ document.querySelector('#app').innerHTML = `
           on thier journey by fellow Mandorian Bo-Katan Kryze
         </p>
         <div id = "b1">
-          <button><img src="src/images/play_circle_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png" alt="" /> Play Now</button>
-          <button><img src="src/images/play_circle_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png" alt="" /> Watch Trailer</button>
-          <button><img src="src/images/bookmark_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png" alt="" /> Add Watchlist</button>
+          <button class ="t1"><img src="src/images/play_circle_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png" alt="" /> Play Now</button>
+          <button class ="t3"><img src="src/images/bookmark_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png" alt="" /> Add Watchlist</button>
         </div>
       </div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext"></div>
-    <img src="/src/images/w1.jpg" style="width:185%">
+    <img src="/src/images/w1.jpg" class = "f">
     <div class="text"></div>
      <div id= "main">
         <button>Season 3</button>
@@ -76,19 +72,18 @@ document.querySelector('#app').innerHTML = `
           on thier journey by fellow Mandorian Bo-Katan Kryze
         </p>
         <div id = "b1">
-          <button><img src="src/images/play_circle_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png" alt="" /> Play Now</button>
-          <button><img src="src/images/play_circle_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png" alt="" /> Watch Trailer</button>
-          <button><img src="src/images/bookmark_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png" alt="" /> Add Watchlist</button>
+          <button class ="t1"><img src="src/images/play_circle_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png" alt="" /> Play Now</button>
+          <button class ="t3"><img src="src/images/bookmark_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png" alt="" /> Add Watchlist</button>
         </div>
       </div>
   </div>
 
   <div class="mySlides fade">
-    <div class="numbertext">3 / 3</div>
-    <img src="/src/images/m1.jpeg" style="width:185%">
-    <div class="text"></div>0+
+    <div class="numbertext"></div>
+    <img src="/src/images/w1.jpg" class = "f">
+    <div class="text"></div>
      <div id= "main">
-        <button>Season 3</button>
+        <span>Season 3</span>
         <h1>The Mandalorian</h1>
         <p>2h40m.2022.Fantsy.Action</p>
         <p>
@@ -100,9 +95,8 @@ document.querySelector('#app').innerHTML = `
           on thier journey by fellow Mandorian Bo-Katan Kryze
         </p>
         <div id = "b1">
-          <button><img src="src/images/play_circle_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png" alt="" /> Play Now</button>
-          <button><img src="src/images/play_circle_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png" alt="" /> Watch Trailer</button>
-          <button><img src="src/images/bookmark_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png" alt="" /> Add Watchlist</button>
+          <button class ="t1"><img src="src/images/play_circle_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png" alt="" /> Play Now</button>
+          <button class ="t3"><img src="src/images/bookmark_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png" alt="" /> Add Watchlist</button>
         </div>
       </div>
   </div>
@@ -134,16 +128,13 @@ document.querySelector('#app').innerHTML = `
         <img src="src/images/WhatsApp Image 2024-12-11 at 11.05.28_805d73e4.jpg" alt="">
       </div>
 
-      <h3>Continue Watching</h3> 
-      <div id= "i1">
-      </div>
       <section id = "s1">
         <h2>Popular of the week</h2>
         <div id = "d1">
          
         </div>
       </section>
-
+      
       <div class="swiper">
       <h2>Just release</h2>
   <div class="swiper-wrapper" id="s4">
@@ -165,6 +156,11 @@ document.querySelector('#app').innerHTML = `
          </div>
 
       </section>
+
+      <h3>Your likes</h3> 
+      <div id= "i1">
+      </div>
+      
     </main>
 
     <footer>
@@ -229,12 +225,12 @@ fetch("https://api.themoviedb.org/3/discover/movie?include_adult=false&include_v
       const image = document.createElement('img');
       image.src = posterPath;
       image.alt = movie.original_title;
-      image.className = 'movie-img';
+      image.className = 'movie-img2';
       movieDiv.appendChild(image);
 
       const title = document.createElement('h3');
       title.textContent = movie.original_title;
-      title.className = 'movie-title';
+      title.className = 'movie-title2';
       movieDiv.appendChild(title);
 
       const rating = document.createElement("p");
@@ -256,17 +252,20 @@ options = {
       "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI0ZWYzNjNmOWY5YTNjNTUzNTE0OWM5MDk3MGZhMjMxMSIsIm5iZiI6MTczMzUxMDAxOS40MTYsInN1YiI6IjY3NTM0MzgzODcxYTQyYzljMjQ1NDFhNSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.FgU6EplfTnUB-e6GZZfUI7lO0Ad71oYwG54qzjXpozo",
   },
 };
-fetch(
-  "https://api.themoviedb.org/3/movie/top_rated?language=en-US&page=1",
-  options
-)
+fetch("https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&language=en-US&page=1&sort_by=popularity.desc", options)
   .then((res) => res.json())
   .then((data) => {
     console.log(data);
-    const sec3 = document.getElementById('d1')
-    data.results.forEach(movie => {
+
+    const sec = document.getElementById('d1');
+    data.results.forEach((movie, index) => {
       const movieDiv = document.createElement('div');
-      movieDiv.className = 'movie-container';
+      movieDiv.className = 'movie-container1';
+
+      const indexDiv = document.createElement('div');
+      indexDiv.className = 'movie-index';
+      indexDiv.textContent = index + 1;
+      movieDiv.appendChild(indexDiv);
 
       const posterPath = movie.poster_path
         ? `https://image.tmdb.org/t/p/w500${movie.poster_path}`
@@ -275,24 +274,28 @@ fetch(
       const image = document.createElement('img');
       image.src = posterPath;
       image.alt = movie.original_title;
-      image.className = 'movie-img';
+      image.className = 'movie-img1';
       movieDiv.appendChild(image);
+
+      const infoDiv = document.createElement('div');
+      infoDiv.className = 'movie-info';
 
       const title = document.createElement('h3');
       title.textContent = movie.original_title;
-      title.className = 'movie-title';
-      movieDiv.appendChild(title);
+      title.className = 'movie-title1';
+      infoDiv.appendChild(title);
 
       const rating = document.createElement("p");
       rating.innerHTML = `&#11088; ${movie.vote_average}`;
       rating.className = 'movie-rating';
-      movieDiv.appendChild(rating);
+      infoDiv.appendChild(rating);
 
-      sec3.appendChild(movieDiv);
-    })
-  }
-) 
-.catch((err) => console.error(err));
+      movieDiv.appendChild(infoDiv);
+
+      sec.appendChild(movieDiv);
+    });
+  })
+  .catch((err) => console.error(err));
 
 options = {
   method: "GET",
